@@ -1,6 +1,8 @@
 
+# *WORK-IN-PROJECT*
+---
 # Élevage canin "Le Jardin des Boucles" - Site Web
-## *Travail en cours*
+
 
 Ce projet est la refonte - à mon initiative uniquement et à des fins d'entraînement - d'un site web d'élevage de Shih Tzu (http://shihtzu.free.fr/index.htm) , visant à moderniser son design tout en conservant l'esprit original. Le site est **responsive**, utilisant des technologies modernes comme **HTML5**, **CSS3** et **JavaScript léger**.
 
