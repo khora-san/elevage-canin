@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Élevage "le Jardin des Boucles "Shih Tzu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="alert-banner" id="alertBanner">
+        <p>
+            ⚠️ <strong>ATTENTION !</strong> Depuis le 1<sup>er</sup> janvier 2016, nouvelles règles
+            pour la vente de chiots entre particuliers :
+            <a href="nouvelles-regles.html">en savoir plus</a>
+        </p>
+        <button class="close-banner" aria-label="Fermer l’alerte">&times;</button>
+    </div>
+
+
+
+    <header>
+        <div class="container">
+            <h1>Élevage LE JARDIN DES BOUCLES</h1>
+
+            <!-- Bouton burger -->
+            <button class="burger" aria-label="Menu">
+                &#9776;
+            </button>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Nos chiens</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+
+        <section class="hero">
+            <img src="images/Shih-Tzu.jpg" alt="un adorable Shih Tzu" />
+            <div class="hero-text">
+                <h2>Bienvenue chez nous</h2>
+                <p>Notre petit élevage familial de Shih Tzu, Bichons et Caniches en pleine nature 🐾</p>
+            </div>
+
+        </section>
+
+        <section class="presentation">
+            <img src="images/maison.jpg" alt="Maison de l'élevage" />
+            <div>
+                <h3>Notre histoire</h3>
+                <p>
+                    Nous sommes Monique. D et Aurélie F., éleveuses professionnelles. Depuis plus de 25 ans, nous
+                    élevons avec passion ces petits compagnons doux, intelligents et pleins de vie.
+                    Notre élevage familial respecte le bien-être et le développement de chaque chiot.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="gallery">
+            <h2>Galerie photos</h2>
+            <div class="gallery-grid">
+                <img src="images/shih1.jpg" alt="Shih Tzu 1" />
+                <img src="images/shih2.jpg" alt="Shih Tzu 2" />
+                <img src="images/shih3.jpg" alt="Shih Tzu 3" />
+                <!--<img src="images/shih4.jpg" alt="Shih Tzu 4" /> -->
+                <img src="images/shih5.jpg" alt="Shih Tzu 5" />
+                <img src="images/shih6.jpg" alt="Shih Tzu 6" />
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Nous contacter</h2>
+            <form method="POST" action="#">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+            <div class="form-message" id="formMessage"></div>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact : 06 12 34 56 78 – email@eleveur.com</p>
+            <p>&copy; 2025 Élevage de Shih Tzu • Tous droits réservés</p>
+        </div>
+        <p><a href="mentions-legales.html">Mentions légales</a></p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!-- boite modale lightbox avec carrousel -->
+    <div class="lightbox" id="lightbox">
+        <button class="prev" aria-label="Image précédente">&#10094;</button>
+        <img src="" alt="Image agrandie" id="lightbox-img" />
+        <button class="next" aria-label="Image suivante">&#10095;</button>
+        <span class="close">&times;</span>
+    </div>
+
+
+
+</body>
+
+</html>
