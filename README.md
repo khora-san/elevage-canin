@@ -49,20 +49,22 @@ Une page dédiée à la présentation des **nouvelles règles** relatives à la 
 
 ---
 
-## Installation
+## Visualisation
 
-Pour voir le site en local sur votre machine, suivez ces étapes :
-
-1. Clonez ce repository sur votre ordinateur :
-    ```bash
-    git clone https://github.com/ton-utilisateur/eleveur-shih-tzu.git
-    ```
-
-2. Ouvrez le fichier `index.html` dans votre navigateur pour visualiser le site.
+Le site est visible sur la GitHub page suivante : https://khora-san.github.io/elevage-canin/
 
 ---
 
 ## Structure du projet
 
 Voici l'organisation des fichiers du projet :
+/elevage-canin
+├── index.html # Page principale
+├── nouvelles-regles.html # Page des nouvelles règles
+├── styles.css # Fichier CSS principal
+├── script.js # Fichier JavaScript pour les interactions
+├── images/ # Dossier contenant les images
+└── README.md # Documentation du projet
+
+
 
