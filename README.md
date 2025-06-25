@@ -62,13 +62,13 @@ Le site est visible sur la GitHub page suivante : https://khora-san.github.io/el
 ## Structure du projet
 
 Voici l'organisation des fichiers du projet :
-/elevage-canin
-├── index.html # Page principale  
-├── nouvelles-regles.html # Page des nouvelles règles  
-├── styles.css # Fichier CSS principal  
-├── script.js # Fichier JavaScript pour les interactions 
-├── images/ # Dossier contenant les images  
-└── README.md # Documentation du projet  
+/elevage-canin  
+├── index.html # Page principale    
+├── nouvelles-regles.html # Page des nouvelles règles    
+├── styles.css # Fichier CSS principal    
+├── script.js # Fichier JavaScript pour les interactions   
+├── images/ # Dossier contenant les images    
+└── README.md # Documentation du projet    
 
 
 
